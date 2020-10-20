@@ -1,0 +1,4 @@
+test_sample.py    官方文档学习的第一个样例，使用pytest test_sample.py就可以运行
+test_sysexit.py   使用raise来断言某些代码引发的异常  pytest -q test_sysexit.py运行，The -q/--quiet flag keeps the output brief in this and following examples.
+test_class.py     讲解测试class和测试方法的命名规范
+run_tests_in_a_directory   用来验证，可以通过pytest directory的方式，来运行某个文件夹内的测试方法，命令：pytest test_mod.py::TestClass::test_method等
